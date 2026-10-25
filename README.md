@@ -2,6 +2,8 @@
 
 Type what is in your fridge and get a structured recipe from Google Gemini. The app turns the model's JSON into an interactive cooking tool. It is not a chatbot.
 
+[🌐 View Live Demo](https://pantry-chef-ai-one.vercel.app/)
+
 **Stack:** React (hooks) + Vite + Tailwind CSS v4 + lucide-react, FastAPI backend, Google Gemini API.
 
 ## Features
