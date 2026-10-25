@@ -21,7 +21,7 @@ Type what is in your fridge and get a structured recipe from Google Gemini. The 
 ```
 fridge-to-recipe/
 ├── backend/
-│   ├── main.py             FastAPI app: Gemini call, JSON parsing, validation, retry
+│   ├── app.py             FastAPI app: Gemini call, JSON parsing, validation, retry
 │   ├── requirements.txt
 │   ├── .env.example
 │   └── .env                (you create this, never commit it)
