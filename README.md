@@ -56,7 +56,7 @@ You need Python 3.10+ and Node 18+.
    ```
    Then start the server:
    ```
-   uvicorn main:app --reload --port 8000
+   uvicorn app:app --reload --port 8000
    ```
    Check `http://localhost:8000/api/health`. It should show `"key_configured": true`.
 
@@ -114,7 +114,7 @@ Every error state has a message, and Offline Mock Mode is offered as a fallback.
 | Symptom | Fix |
 |---|---|
 | `key_configured: false` | `.env` must be inside `backend/`, named exactly `.env`, with no quotes around the key. Restart uvicorn |
-| `Could not import module "main"` | Run uvicorn from inside `backend/`, next to `main.py`, with the venv active |
+| `Could not import module "main"` | Run uvicorn from inside `backend/`, next to `app.py`, with the venv active |
 | "AI service error (404)" | The model name is retired or wrong. Update `GEMINI_MODEL` and restart |
 | "took too long to respond" | Use a lighter model such as `gemini-3.1-flash-lite` |
 | Page unstyled | Run `npm install` again and check `vite.config.js` includes the Tailwind plugin |
