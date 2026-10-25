@@ -121,7 +121,7 @@ Every error state has a message, and Offline Mock Mode is offered as a fallback.
 | "took too long to respond" | Use a lighter model such as `gemini-3.1-flash-lite` |
 | Page unstyled | Run `npm install` again and check `vite.config.js` includes the Tailwind plugin |
 
-## What I would do next
+## Next Steps
 - Apply a chosen substitution to the recipe and recalculate
 - Refinement prompts ("make it vegetarian") that edit the existing recipe
 - Stream the response as it generates
